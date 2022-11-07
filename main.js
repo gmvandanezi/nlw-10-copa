@@ -1,3 +1,9 @@
+function changeColor(color) {
+
+  const tema = document.querySelector('body');
+  tema.classList.replace(tema.className, `${color}`);
+}
+
 function createGame(player1, hour, player2) {
   return `
         <li>
